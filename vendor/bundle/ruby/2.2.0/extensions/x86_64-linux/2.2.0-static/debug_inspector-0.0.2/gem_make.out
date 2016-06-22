@@ -1,0 +1,11 @@
+/home/nyawira/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20160621-3674-18ga3ip.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20160621-3674-1rygzpw

@@ -1,0 +1,15 @@
+/home/nyawira/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20160621-3674-16ph0mz.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling locker.c
+compiling breakpoint.c
+compiling context.c
+compiling threads.c
+compiling byebug.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20160621-3674-1p1y4f2/byebug

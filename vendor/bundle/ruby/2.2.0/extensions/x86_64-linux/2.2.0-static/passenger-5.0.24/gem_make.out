@@ -1,0 +1,13 @@
+/home/nyawira/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20160621-3674-hv64ud.rb extconf.rb
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.0.24/rubyext-ruby-2.2.3-x86_64-linux.tar.gz into /home/nyawira/Documents/sharetribe/vendor/bundle/ruby/2.2.0/gems/passenger-5.0.24/download_cache
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.0.24/nginx-1.8.1-x86_64-linux.tar.gz into /home/nyawira/Documents/sharetribe/vendor/bundle/ruby/2.2.0/gems/passenger-5.0.24/download_cache
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.0.24/agent-x86_64-linux.tar.gz into /home/nyawira/Documents/sharetribe/vendor/bundle/ruby/2.2.0/gems/passenger-5.0.24/download_cache
+
+make "DESTDIR=" clean
+true
+
+make "DESTDIR="
+true
+
+make "DESTDIR=" install
+true

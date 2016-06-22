@@ -1,0 +1,11 @@
+/home/nyawira/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20160622-4147-1uws9m8.rb extconf.rb
+
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+make "DESTDIR="
+g++ -O3 -g -Wall -c inotify-wrapper.cpp -o inotify-wrapper.o
+g++ -O3 -g -Wall inotify-wrapper.o -o inotify-wrapper
+
+make "DESTDIR=" install
+# do nothing

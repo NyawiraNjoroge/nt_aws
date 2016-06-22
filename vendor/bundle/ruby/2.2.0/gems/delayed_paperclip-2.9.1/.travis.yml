@@ -1,0 +1,23 @@
+language: ruby
+
+rvm:
+  - 2.1
+  - 2.0
+
+gemfile:
+  - gemfiles/3.2.gemfile
+  - gemfiles/4.0.gemfile
+  - gemfiles/4.1.gemfile
+
+sudo: false
+
+services:
+  - redis
+
+script: "bundle exec rake clean spec"
+
+notifications:
+  email:
+    - james@jamesrgifford.com
+    - scott@artsicle.com
+

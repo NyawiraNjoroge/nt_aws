@@ -1,0 +1,15 @@
+/home/nyawira/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20160622-4147-g6902x.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling wrapper.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling bcrypt_ext.c
+compiling crypt_gensalt.c
+linking shared-object bcrypt_ext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20160622-4147-lozkpq

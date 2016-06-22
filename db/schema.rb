@@ -627,7 +627,7 @@ ActiveRecord::Schema.define(version: 20160518060235) do
   add_index "marketplace_setup_steps", ["community_id"], name: "index_marketplace_setup_steps_on_community_id", unique: true, using: :btree
 
   create_table "marketplace_trials", force: :cascade do |t|
-    t.integer  "community_id", limit: 4,     null: false
+    t.integer  "community_id", limit: 4, null: false
     t.datetime "expires_at"
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
